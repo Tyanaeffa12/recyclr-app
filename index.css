@@ -156,8 +156,10 @@
     
 
     .hero::before {
-      
-      filter: blur(2px); 
+      width: 100%;
+      height: 50%;
+      filter: blur(1px);
+       
     }
 
     .about-section{
@@ -185,7 +187,7 @@
     }
 
     .feature-section{
-      margin-top: 20%;
+      margin-top: 40%;
     }
 
 
