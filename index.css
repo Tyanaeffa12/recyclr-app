@@ -158,7 +158,7 @@
 
     .hero::before {
       width: 100%;
-      height: 50%;
+      height: 60%;
       filter: blur(0.8px);
       background-image: url('/IMG_6216.JPG'); 
        
