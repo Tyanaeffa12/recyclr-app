@@ -158,7 +158,7 @@
     .hero::before {
       width: 100%;
       height: 50%;
-      filter: blur(1px);
+      filter: blur(3px);
        
     }
 
