@@ -191,12 +191,12 @@ body, h1, h2, h3, p, ul, li {
     }
     
     .search-icon {
-      position: absolute;
       top: 40%;
       right: 10px;
-      transform: translateY(-50%);
-      cursor: pointer;
-      color: #333;
+    }
+
+    footer{
+      font-size:10px;
     }
 
   }
