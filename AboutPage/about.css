@@ -40,10 +40,27 @@ main {
 
   @media only screen and (max-width: 767px) {
     .about-section{
-      height: 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    .about-image {
+      flex: 2;
+      max-width: 100px;
+      margin-right: 0px;
+      margin-left: 2%;
+    }
+
+    .about-content h2{
+      font-size: 3em;
+      
     }
 
     .about-content p{
-      font-size:1em;
+      font-size: 1em;
+      align-items: center;
+     
     }
+
   }

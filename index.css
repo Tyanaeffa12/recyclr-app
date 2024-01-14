@@ -137,25 +137,64 @@
   }
   
    /* Media Queries for Phones */
-  @media only screen and (max-width: 767px) {
+  @media only screen and (min-width: 320px)and (max-width: 767px) {
     .hero h1{
-      font-size: 3em;
-      margin-top: 10%;
+      font-size: 2.5em;
+      margin-top: 2%;
+      padding: 5%;
+
     }
-    .feature-section{
-      margin-top: 30%;
+    .hero p{
+      font-size: 1em;
+
     }
 
+    .hero{
+      border: 5px solid #f0f3f1;
+      padding: 10%;
+    }
+    
+
     .hero::before {
-      filter: blur(7px);
+      filter: blur(1px);
+      width: 200%;
     }
 
     .about-section{
-      height: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60%;
+    }
+    .about-image {
+      flex: 2;
+      max-width: 100px;
+      margin-right: 0px;
+      margin-left: 2%;
+    }
+
+    .about-content h2{
+      font-size: 3em;
+      margin-top: 20%;
     }
 
     .about-content p{
-      font-size:1em;
+      font-size: 1em;
+      align-items: center;
+      margin-bottom: 10%;
+    }
+
+    .feature-section{
+      margin-top: 20%;
+    }
+
+
+    img{
+      width: 100%;
+    }
+
+    .feature-box{
+      margin: 2%;
     }
 
     
