@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recyclr - Home</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/BlogPage/blog.css" />
+    <!-- Google font links -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="logo-container">
+          <a href="/Homepage/index.html" class="logo">
+            <img src="/logo.jpg" alt="Recyclr Logo" class="logo-img" />
+          </a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <div class="search-icon">&#128269;</div>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <div class="cancel-icon" onclick="toggleMenu()">✕</div>
+          <a href="/Homepage/index.html">Home</a>
+          <a href="/AboutPage/about.html">About</a>
+          <a href="/MapPage/map.html">Map</a>
+          <a href="/LocatePage/locate.html">Locate Centre</a>
+          <a href="/BlogPage/blog.html">Blog</a>
+          <a href="/LoginPage/login.html">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <div class="blog-post">
+        <h2 class="blog-title">Getting Started with Recycling at Home</h2>
+        <p class="blog-snippet">Learn simple steps to kickstart your recycling journey and make a positive impact on the environment...</p>
+      </div>
+  
+      <div class="blog-post">
+        <h2 class="blog-title">Reducing Waste: Tips for Beginners</h2>
+        <p class="blog-snippet">Discover practical tips to minimize your household waste and contribute to a more sustainable lifestyle...</p>
+      </div>
+  
+      <div class="blog-post">
+        <h2 class="blog-title">Eco-Friendly Practices for a Greener Living</h2>
+        <p class="blog-snippet">Explore eco-friendly habits that not only benefit the planet but also enhance your overall well-being...</p>
+      </div>
+  
+      <div class="blog-post">
+        <h2 class="blog-title">Understanding Recycling Symbols: A Quick Guide</h2>
+        <p class="blog-snippet">Decode common recycling symbols and make informed decisions about disposing of different materials...</p>
+      </div>
+  
+      <div class="blog-post">
+        <h2 class="blog-title">The Importance of Community Recycling Initiatives</h2>
+        <p class="blog-snippet">Discover how local recycling initiatives bring communities together for a cleaner and healthier environment...</p>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="social-icons">
+        <a href="#" class="icon">Facebook</a>
+        <a href="#" class="icon">Twitter</a>
+        <a href="#" class="icon">Instagram</a>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a>|</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div>
+        <p>©ReCyclr</p>
+      </div>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        var navMenu = document.getElementById("navMenu");
+        navMenu.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+main {
+    padding: 20px;
+  }
+  
+  .about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    padding: 2%;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 20px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .about-content {
+    flex: 1;
+  }
+  
+  .about-content h2 {
+    font-size: 3.8em;
+    color: rgb(36, 58, 47);
+    margin-bottom: 3%;
+  }
+  
+  .about-content p {
+    font-size: 1.4em;
+    color: rgb(55, 80, 68);
+    padding: 5px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .about-section{
+      height: 10%;
+    }
+
+    .about-content p{
+      font-size:1em;
+    }
+  }

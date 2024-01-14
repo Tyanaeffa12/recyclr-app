@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recyclr: Recycling Centres Finder</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/Homepage/home.css" />
+    <!-- Google font links -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div class="logo-container">
+          <a href="/Homepage/index.html" class="logo">
+            <img src="/logo.jpg" alt="Recyclr Logo" class="logo-img" />
+          </a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <div class="search-icon">&#128269;</div>
+        </div>
+        <div class="nav-menu" id="navMenu">
+          <div class="cancel-icon" onclick="toggleMenu()">✕</div>
+          <a href="/Homepage/index.html">Home</a>
+          <a href="/AboutPage/about.html">About</a>
+          <a href="/MapPage/map.html">Map</a>
+          <a href="/LocatePage/locate.html">Locate Centre</a>
+          <a href="/BlogPage/blog.html">Blog</a>
+          <a href="/LoginPage/login.html">Login</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="hero">
+            <h1>Reduce, Reuse, Recycle</h1>
+            <p>Find the Household Waste Recycling Centres Closest to you</p>
+          </section>
+      </section>
+        
+      <section class="feature-section">
+        <div class="feature-box">
+          <a href="/MapPage/map.html">
+            <img src="/map.jpg" alt="mapfeatureimg">
+          </a>
+          
+        </div>
+        <div class="feature-box">
+          <a href="/LocatePage/locate.html">
+            <img src="/locate.jpg" alt="locatefeatureimg">
+          </a>
+          
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="about-image">
+          <img src="/about.JPG" alt="about-image">
+        </div>
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>Welcome to ReCyclr, your go-to platform for sustainable living in Avonmouth! We're on a mission to make recycling easier and more rewarding for residents.</p>
+          
+          <p>At ReCyclr, we connect you with local household waste recycling centers, ensuring you have convenient access to responsible disposal options. </p>
+          <a href="/AboutPage/about.html" class="cta-button">Learn More</a>
+        </div>
+      </section>git
+    </main>
+
+    
+
+    <script>
+      function toggleMenu() {
+        var navMenu = document.getElementById("navMenu");
+        navMenu.classList.toggle("show");
+      }
+    </script>
+  </body>
+  <!-- Footer Section -->
+  <footer>
+    <div class="social-icons">
+      <a href="#" class="icon">Facebook</a>
+      <a href="#" class="icon">Twitter</a>
+      <a href="#" class="icon">Instagram</a>
+    </div>
+    <div class="footer-links">
+      <a href="#">Contact Us </a>
+      <a>|</a>
+      <a href="#">Privacy Policy</a>
+      <a>|</a>
+      <a href="#">Terms of Service</a>
+    </div>
+    <div>
+      <p>©ReCyclr</p>
+    </div>
+  </footer>
+</html>

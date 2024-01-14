@@ -1,0 +1,172 @@
+/* BODY */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: black;
+  }
+
+  /* HEADER */
+  
+  header {
+    background-color: rgba(141, 171, 154, 1);
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+    font-size: 30px;
+    color: #333;
+    margin-left: 40px;
+  }
+
+  /* LOGO */
+  
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 150px; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out; 
+  }
+
+  /* Hover effect */
+.logo-img:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+
+  /* SEARCH BAR */
+  
+  .search-bar {
+    position: relative;
+
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+  }
+  
+   
+  /* MAIN */
+  
+  main {
+    flex: 1;
+    padding: 10px;
+    margin-top: 4%;
+  }
+  .hero {
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  /* FOOTER */
+
+  footer {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(245, 247, 248);
+    line-height: 150%;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer-links a {
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  /* NAVIGATION MENU */
+
+.nav-menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%; 
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .cancel-icon {
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .nav-menu.show {
+    display: flex;
+  }
+  
+  .nav-menu a {
+    padding: 15px; 
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .nav-menu a:last-child {
+    border-bottom: none; 
+  }
+  
+.nav-menu a:active {
+    background-color:grey;
+  }
+
+  
+ 
